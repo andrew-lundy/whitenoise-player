@@ -14,7 +14,7 @@
 		268B531D25745C8C0095C704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268B531B25745C8C0095C704 /* LaunchScreen.storyboard */; };
 		268B532825745C8C0095C704 /* White_Noise_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268B532725745C8C0095C704 /* White_Noise_PlayerTests.swift */; };
 		268B533325745C8C0095C704 /* White_Noise_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268B533225745C8C0095C704 /* White_Noise_PlayerUITests.swift */; };
-		268B534425745CA70095C704 /* WhiteNoise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 268B534325745CA70095C704 /* WhiteNoise.mp3 */; };
+		26B4438225B8E1AA00CCB5D6 /* WhiteNoise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26B4438125B8E1A900CCB5D6 /* WhiteNoise.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		268B532E25745C8C0095C704 /* White Noise PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "White Noise PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		268B533225745C8C0095C704 /* White_Noise_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = White_Noise_PlayerUITests.swift; sourceTree = "<group>"; };
 		268B533425745C8C0095C704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		268B534325745CA70095C704 /* WhiteNoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WhiteNoise.mp3; sourceTree = "<group>"; };
+		26B4438125B8E1A900CCB5D6 /* WhiteNoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WhiteNoise.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 				268B531925745C8C0095C704 /* Assets.xcassets */,
 				268B531B25745C8C0095C704 /* LaunchScreen.storyboard */,
 				268B531E25745C8C0095C704 /* Info.plist */,
-				268B534325745CA70095C704 /* WhiteNoise.mp3 */,
+				26B4438125B8E1A900CCB5D6 /* WhiteNoise.mp3 */,
 			);
 			path = "White Noise Player";
 			sourceTree = "<group>";
@@ -231,9 +231,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B4438225B8E1AA00CCB5D6 /* WhiteNoise.mp3 in Resources */,
 				268B531D25745C8C0095C704 /* LaunchScreen.storyboard in Resources */,
 				268B531A25745C8C0095C704 /* Assets.xcassets in Resources */,
-				268B534425745CA70095C704 /* WhiteNoise.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
