@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		268B531125745C8A0095C704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268B531025745C8A0095C704 /* AppDelegate.swift */; };
+		268B531325745C8A0095C704 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268B531225745C8A0095C704 /* SceneDelegate.swift */; };
+		268B531525745C8A0095C704 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268B531425745C8A0095C704 /* ViewController.swift */; };
+		268B531A25745C8C0095C704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268B531925745C8C0095C704 /* Assets.xcassets */; };
+		268B531D25745C8C0095C704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268B531B25745C8C0095C704 /* LaunchScreen.storyboard */; };
+		268B532825745C8C0095C704 /* White_Noise_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268B532725745C8C0095C704 /* White_Noise_PlayerTests.swift */; };
+		268B533325745C8C0095C704 /* White_Noise_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268B533225745C8C0095C704 /* White_Noise_PlayerUITests.swift */; };
+		268B534425745CA70095C704 /* WhiteNoise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 268B534325745CA70095C704 /* WhiteNoise.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		268B532425745C8C0095C704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 268B530525745C8A0095C704 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 268B530C25745C8A0095C704;
+			remoteInfo = "White Noise Player";
+		};
+		268B532F25745C8C0095C704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 268B530525745C8A0095C704 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 268B530C25745C8A0095C704;
+			remoteInfo = "White Noise Player";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		268B530D25745C8A0095C704 /* White Noise Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "White Noise Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		268B531025745C8A0095C704 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		268B531225745C8A0095C704 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		268B531425745C8A0095C704 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		268B531925745C8C0095C704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		268B531C25745C8C0095C704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		268B531E25745C8C0095C704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268B532325745C8C0095C704 /* White Noise PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "White Noise PlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		268B532725745C8C0095C704 /* White_Noise_PlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = White_Noise_PlayerTests.swift; sourceTree = "<group>"; };
+		268B532925745C8C0095C704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268B532E25745C8C0095C704 /* White Noise PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "White Noise PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		268B533225745C8C0095C704 /* White_Noise_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = White_Noise_PlayerUITests.swift; sourceTree = "<group>"; };
+		268B533425745C8C0095C704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268B534325745CA70095C704 /* WhiteNoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WhiteNoise.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		268B530A25745C8A0095C704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268B532025745C8C0095C704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268B532B25745C8C0095C704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		268B530425745C8A0095C704 = {
+			isa = PBXGroup;
+			children = (
+				268B530F25745C8A0095C704 /* White Noise Player */,
+				268B532625745C8C0095C704 /* White Noise PlayerTests */,
+				268B533125745C8C0095C704 /* White Noise PlayerUITests */,
+				268B530E25745C8A0095C704 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		268B530E25745C8A0095C704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				268B530D25745C8A0095C704 /* White Noise Player.app */,
+				268B532325745C8C0095C704 /* White Noise PlayerTests.xctest */,
+				268B532E25745C8C0095C704 /* White Noise PlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		268B530F25745C8A0095C704 /* White Noise Player */ = {
+			isa = PBXGroup;
+			children = (
+				268B531025745C8A0095C704 /* AppDelegate.swift */,
+				268B531225745C8A0095C704 /* SceneDelegate.swift */,
+				268B531425745C8A0095C704 /* ViewController.swift */,
+				268B531925745C8C0095C704 /* Assets.xcassets */,
+				268B531B25745C8C0095C704 /* LaunchScreen.storyboard */,
+				268B531E25745C8C0095C704 /* Info.plist */,
+				268B534325745CA70095C704 /* WhiteNoise.mp3 */,
+			);
+			path = "White Noise Player";
+			sourceTree = "<group>";
+		};
+		268B532625745C8C0095C704 /* White Noise PlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				268B532725745C8C0095C704 /* White_Noise_PlayerTests.swift */,
+				268B532925745C8C0095C704 /* Info.plist */,
+			);
+			path = "White Noise PlayerTests";
+			sourceTree = "<group>";
+		};
+		268B533125745C8C0095C704 /* White Noise PlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				268B533225745C8C0095C704 /* White_Noise_PlayerUITests.swift */,
+				268B533425745C8C0095C704 /* Info.plist */,
+			);
+			path = "White Noise PlayerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		268B530C25745C8A0095C704 /* White Noise Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268B533725745C8C0095C704 /* Build configuration list for PBXNativeTarget "White Noise Player" */;
+			buildPhases = (
+				268B530925745C8A0095C704 /* Sources */,
+				268B530A25745C8A0095C704 /* Frameworks */,
+				268B530B25745C8A0095C704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "White Noise Player";
+			productName = "White Noise Player";
+			productReference = 268B530D25745C8A0095C704 /* White Noise Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		268B532225745C8C0095C704 /* White Noise PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268B533A25745C8C0095C704 /* Build configuration list for PBXNativeTarget "White Noise PlayerTests" */;
+			buildPhases = (
+				268B531F25745C8C0095C704 /* Sources */,
+				268B532025745C8C0095C704 /* Frameworks */,
+				268B532125745C8C0095C704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268B532525745C8C0095C704 /* PBXTargetDependency */,
+			);
+			name = "White Noise PlayerTests";
+			productName = "White Noise PlayerTests";
+			productReference = 268B532325745C8C0095C704 /* White Noise PlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		268B532D25745C8C0095C704 /* White Noise PlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268B533D25745C8C0095C704 /* Build configuration list for PBXNativeTarget "White Noise PlayerUITests" */;
+			buildPhases = (
+				268B532A25745C8C0095C704 /* Sources */,
+				268B532B25745C8C0095C704 /* Frameworks */,
+				268B532C25745C8C0095C704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268B533025745C8C0095C704 /* PBXTargetDependency */,
+			);
+			name = "White Noise PlayerUITests";
+			productName = "White Noise PlayerUITests";
+			productReference = 268B532E25745C8C0095C704 /* White Noise PlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		268B530525745C8A0095C704 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					268B530C25745C8A0095C704 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					268B532225745C8C0095C704 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 268B530C25745C8A0095C704;
+					};
+					268B532D25745C8C0095C704 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 268B530C25745C8A0095C704;
+					};
+				};
+			};
+			buildConfigurationList = 268B530825745C8A0095C704 /* Build configuration list for PBXProject "White Noise Player" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 268B530425745C8A0095C704;
+			productRefGroup = 268B530E25745C8A0095C704 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				268B530C25745C8A0095C704 /* White Noise Player */,
+				268B532225745C8C0095C704 /* White Noise PlayerTests */,
+				268B532D25745C8C0095C704 /* White Noise PlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		268B530B25745C8A0095C704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268B531D25745C8C0095C704 /* LaunchScreen.storyboard in Resources */,
+				268B531A25745C8C0095C704 /* Assets.xcassets in Resources */,
+				268B534425745CA70095C704 /* WhiteNoise.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268B532125745C8C0095C704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268B532C25745C8C0095C704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		268B530925745C8A0095C704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268B531525745C8A0095C704 /* ViewController.swift in Sources */,
+				268B531125745C8A0095C704 /* AppDelegate.swift in Sources */,
+				268B531325745C8A0095C704 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268B531F25745C8C0095C704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268B532825745C8C0095C704 /* White_Noise_PlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268B532A25745C8C0095C704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268B533325745C8C0095C704 /* White_Noise_PlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		268B532525745C8C0095C704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 268B530C25745C8A0095C704 /* White Noise Player */;
+			targetProxy = 268B532425745C8C0095C704 /* PBXContainerItemProxy */;
+		};
+		268B533025745C8C0095C704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 268B530C25745C8A0095C704 /* White Noise Player */;
+			targetProxy = 268B532F25745C8C0095C704 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		268B531B25745C8C0095C704 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				268B531C25745C8C0095C704 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		268B533525745C8C0095C704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		268B533625745C8C0095C704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		268B533825745C8C0095C704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCV468WDTL;
+				INFOPLIST_FILE = "White Noise Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rustynailsoftware.White-Noise-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		268B533925745C8C0095C704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCV468WDTL;
+				INFOPLIST_FILE = "White Noise Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rustynailsoftware.White-Noise-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		268B533B25745C8C0095C704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCV468WDTL;
+				INFOPLIST_FILE = "White Noise PlayerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rustynailsoftware.White-Noise-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/White Noise Player.app/White Noise Player";
+			};
+			name = Debug;
+		};
+		268B533C25745C8C0095C704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCV468WDTL;
+				INFOPLIST_FILE = "White Noise PlayerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rustynailsoftware.White-Noise-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/White Noise Player.app/White Noise Player";
+			};
+			name = Release;
+		};
+		268B533E25745C8C0095C704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCV468WDTL;
+				INFOPLIST_FILE = "White Noise PlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rustynailsoftware.White-Noise-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "White Noise Player";
+			};
+			name = Debug;
+		};
+		268B533F25745C8C0095C704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCV468WDTL;
+				INFOPLIST_FILE = "White Noise PlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rustynailsoftware.White-Noise-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "White Noise Player";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		268B530825745C8A0095C704 /* Build configuration list for PBXProject "White Noise Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268B533525745C8C0095C704 /* Debug */,
+				268B533625745C8C0095C704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268B533725745C8C0095C704 /* Build configuration list for PBXNativeTarget "White Noise Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268B533825745C8C0095C704 /* Debug */,
+				268B533925745C8C0095C704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268B533A25745C8C0095C704 /* Build configuration list for PBXNativeTarget "White Noise PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268B533B25745C8C0095C704 /* Debug */,
+				268B533C25745C8C0095C704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268B533D25745C8C0095C704 /* Build configuration list for PBXNativeTarget "White Noise PlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268B533E25745C8C0095C704 /* Debug */,
+				268B533F25745C8C0095C704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 268B530525745C8A0095C704 /* Project object */;
+}
